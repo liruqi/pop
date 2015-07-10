@@ -1124,6 +1124,7 @@
 		0B6BE75C19FFD3B900762101 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1137,6 +1138,7 @@
 		0B6BE75E19FFD3B900762101 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1150,6 +1152,7 @@
 		0B6BE75F19FFD3B900762101 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1165,6 +1168,7 @@
 			baseConfigurationReference = ECC1DB1618CA291B008C7DEA /* Project-Profile.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1178,6 +1182,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1A18CA291B008C7DEA /* StaticLibrary-iOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = "pop/pop-Info.plist";
 				PRODUCT_NAME = pop;
 				PUBLIC_HEADERS_FOLDER_PATH = ../Headers/POP;
@@ -1189,6 +1194,7 @@
 			baseConfigurationReference = ECC1DB1218CA291B008C7DEA /* Project-Debug.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1204,6 +1210,7 @@
 			baseConfigurationReference = ECC1DB1718CA291B008C7DEA /* Project-Release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1217,6 +1224,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1A18CA291B008C7DEA /* StaticLibrary-iOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = "pop/pop-Info.plist";
 				PRODUCT_NAME = pop;
 				PUBLIC_HEADERS_FOLDER_PATH = ../Headers/POP;
@@ -1227,6 +1235,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECC1DB1A18CA291B008C7DEA /* StaticLibrary-iOS.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				INFOPLIST_FILE = "pop/pop-Info.plist";
 				PRODUCT_NAME = pop;
 				PUBLIC_HEADERS_FOLDER_PATH = ../Headers/POP;
